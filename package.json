@@ -1,5 +1,5 @@
 {
-  "name": "react-util-tea-tog",
+  "name": "react-util-tea-toi",
   "version": "1.0.0",
   "description": "Compose render prop components",
   "main": "lib/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/whymesay/react-util-tea-tog"
+    "url": "https://github.com/whymesay/react-util-tea-toi"
   },
   "keywords": [
     "react",
@@ -29,7 +29,7 @@
   "author": "whymesay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whymesay/react-util-tea-tog/issues"
+    "url": "https://github.com/whymesay/react-util-tea-toi/issues"
   },
   "files": [
     "dist",
@@ -74,5 +74,5 @@
     "rollup-plugin-uglify": "^3.0.0",
     "react-util-tea-toy": "1.0.0"
   },
-  "homepage": "https://github.com/whymesay/react-util-tea-tog#README.md"
+  "homepage": "https://github.com/whymesay/react-util-tea-toi#README.md"
 }
