@@ -1,6 +1,6 @@
 {
-  "name": "react-util-tea",
-  "version": "5.0.3",
+  "name": "react-util-tea-toy",
+  "version": "1.0.0",
   "description": "Compose render prop components",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/whymesay/react-util-tea"
+    "url": "https://github.com/whymesay/react-util-tea-toy"
   },
   "keywords": [
     "react",
@@ -29,7 +29,7 @@
   "author": "whymesay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whymesay/react-util-tea/issues"
+    "url": "https://github.com/whymesay/react-util-tea-toy/issues"
   },
   "files": [
     "dist",
@@ -58,7 +58,12 @@
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "rimraf": "^2.6.2",
-    "rollup": "^0.57.1"
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-uglify": "^3.0.0"
   },
   "dependencies": {
     "prop-types": "^15.6.0",
@@ -68,5 +73,5 @@
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-uglify": "^3.0.0"
   },
-  "homepage": "https://github.com/whymesay/react-util-tea#README.md"
+  "homepage": "https://github.com/whymesay/react-util-tea-toy#README.md"
 }
