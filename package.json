@@ -1,20 +1,9 @@
 {
   "name": "proxy_pool_util_tea",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Compose render prop components",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "scripts": {
-    "clean": "rimraf dist es tmp lib",
-    "test": "jest",
-    "prepublishOnly": "npm run build",
-    "prebuild": "npm run clean",
-    "build": "npm run build:umd && npm run build:umd:min && npm run build:es && npm run build:commonjs",
-    "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
-    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
-    "build:umd": "cross-env NODE_ENV=development BABEL_ENV=build rollup -c -i src/index.js -o dist/react-composer.js",
-    "build:umd:min": "cross-env NODE_ENV=production BABEL_ENV=buildProd rollup -c -i src/index.js -o dist/react-composer.min.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/whymesay/proxy_pool_util_tea"
@@ -31,11 +20,6 @@
   "bugs": {
     "url": "https://github.com/whymesay/proxy_pool_util_tea/issues"
   },
-  "files": [
-    "dist",
-    "lib",
-    "es"
-  ],
   "peerDependencies": {
     "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
   },
